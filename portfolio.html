@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<header class="bg-green-800 shadow-md fixed top-0 left-0 right-0 h-15 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+
+    
+      <div class="flex-shrink-0">
+        <a href="#" class="text-2xl font-bold text-indigo-600">YourLogo</a>
+      </div>
+
+    
+      <nav class="hidden md:flex space-x-8">
+        <a href="#home" class="text-gray-800 hover:scale-120 hover:text-indigo-600 font-medium transition">Home</a>
+        <a href="#about" class="text-gray-800 hover:scale-120 hover:text-indigo-600 font-medium transition">About</a>
+        <a href="#projects" class="text-ray-800 hover:scale-120 hover:text-indigo-600 font-medium transition">Projects</a>
+        <a href="#contact" class="text-ray-800 hover:scale-120 hover:text-indigo-600 font-medium transition">Contact</a>
+      </nav>
+
+    
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-gray-700 focus:outline-none text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+    <nav class="flex flex-col space-y-2">
+      <a href="#home" class="text-gray-700 hover:text-indigo-600 font-medium transition">Home</a>
+      <a href="#about" class="text-gray-700 hover:text-indigo-600 font-medium transition">About</a>
+      <a href="#projects" class="text-gray-700 hover:text-indigo-600 font-medium transition">Projects</a>
+      <a href="#contact" class="text-gray-700 hover:text-indigo-600 font-medium transition">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  
+<br>
+<br>
+<br>
+
+    
+    <section id="home" class="hero h-screen">
+      
+
+
+  <div class="text-center p-6 bg-green-200 rounded-lg shadow-lg  w-full">
+    
+    <div class="flex justify-center mb-4">
+      <img src="WhatsApp Image 2025-10-11 at 19.22.22_3cb0baa7.jpg" alt="" 
+           class="w-32 hover:scale-120 h-32 rounded-full border-4 border-green-600 shadow-md object-cover">
+    </div>
+
+    
+    <h1 class="text-3xl font-bold text-zinc-800 mb-1">Bibek Kandel</h1>
+
+    
+    <h2 class="text-lg text-indigo-600 font-medium mb-3">Software Developer</h2>
+
+    <p class="text-green-800 mb-4">
+      I build clean, efficient, and scalable software. Passionate about code, tech, and solving real-world problems.
+    </p>
+
+
+    <a href="#projects"
+       class =" inline-block bg-indigo-400 text-white px-4 py-2 rounded hover:bg-blue-800 active:bg-zinc-500">
+      View Projects
+    </a>
+  </div>
+
+
+  <section id="about" class="bg-green-300  h-screen">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        Hi! I'm a passionate software developer with a love for building intuitive and scalable web applications.
+        I specialize in modern JavaScript frameworks like <span class="font-semibold">React</span> and 
+        <span class="font-semibold">Vue.js</span>, and I enjoy working with back-end technologies like 
+        <span class="font-semibold">Node.js</span> and <span class="font-semibold">Express</span>.
+        <br /><br />
+        When I'm not coding, you’ll find me exploring new technologies, contributing to open-source, or writing dev blogs.
+        I'm always eager to take on new challenges and collaborate on meaningful projects.
+      </p>
+    </div>
+    <br>
+   
+                    <h3 class="text-3xl text-center">Skills</h3>
+                    <div class="tech-stack  flex flex-col items-center justify-center">
+                        <div class="uppercase tech-item">htmL5</div>
+                        <div class="uppercase tech-item">CSS3</div>
+                        <div class="uppercase tech-item">C/C++</div>
+                        <div class=" uppercasetech-item">DSA</div>
+                        <div class="uppercase tech-item">Git</div>
+                    </div>
+                </div>
+            </div>
+  </section>
+
+  
+<section id="projects" class="bg-green-100 py-16 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-10">Projects</h2>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      
+      <div class="bg-green-200 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project One</h3>
+          <p class="text-gray-600 mb-4">
+          A web app that helps users track tasks and stay productive. Built with React and Firebase.
+        </p>
+        <a href="#" target="_blank"
+           class="inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">
+          View Project
+        </a>
+      </div>
+
+    
+      <div class="bg-green-200 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project Two</h3>
+        <p class="text-gray-600 mb-4">
+          A real-time chat app using Node.js, Express, and Socket.io. Features private rooms and emoji support.
+        </p>
+        <a href="#" target="_blank"
+           class="inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">
+          View Project
+        </a>
+      </div>
+
+    
+      <div class="bg-green-200 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project Three</h3>
+        <p class="text-gray-600 mb-4">
+          A portfolio generator tool built with Vue and Tailwind CSS that creates fast, mobile-first resumes.
+        </p>
+        <a href="#" target="_blank"
+           class="inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">
+          View Project
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="bg-white py-16 px-6">
+  <div class="max-w-2xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Contact Me</h2>
+    
+    <form action="#" method="POST" class="space-y-6">
+  
+      <div>
+        <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+        <input type="text" id="name" name="name" required
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
+      </div>
+
+    
+      <div>
+        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+        <input type="email" id="email" name="email" required
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
+      </div>
+
+    
+      <div>
+        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+        <textarea id="message" name="message" rows="5" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+      </div>
+
+    
+      <div class="text-center">
+        <button type="submit"
+                class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">
+          Send Message
+        </button>
+      </div>
+    </form>
+
+    <!-- Optional Contact Info -->
+    <div class="mt-10 text-center text-gray-600">
+      <p>Or reach me directly at: <a href="mailto:you@example.com" class="text-indigo-600 hover:underline">you@example.com</a></p>
+      <p class="mt-2">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-indigo-600 hover:underline">LinkedIn</a> |
+        <a href="https://github.com/yourusername" target="_blank" class="text-indigo-600 hover:underline">GitHub</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section (Only Social Links) -->
+<section id="contact" class="bg-white py-16 px-6">
+  <div class="max-w-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Me</h2>
+    <p class="text-gray-600 mb-8">Feel free to reach out on any of my social platforms:</p>
+
+    <!-- Social Media Icons -->
+    <div class="flex justify-center space-x-8 text-3xl text-gray-700">
+      
+      <!-- Instagram -->
+      <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"
+         class="hover:text-pink-500 transition">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp"
+         class="hover:text-green-500 transition">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook"
+         class="hover:text-blue-600 transition">
+        <i class="fab fa-facebook"></i>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="bg-white py-16 px-6">
+  <div class="max-w-2xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Contact Me</h2>
+    
+    <!-- Contact Form -->
+    <form action="#" method="POST" class="space-y-6">
+      <div>
+        <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+        <input type="text" id="name" name="name" required
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
+      </div>
+      <div>
+        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+        <input type="email" id="email" name="email" required
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
+      </div>
+      <div>
+        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+        <textarea id="message" name="message" rows="5" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit"
+                class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">
+          Send Message
+        </button>
+      </div>
+    </form>
+
+
+    <div class="mt-10 text-center">
+      <p class="text-gray-600 mb-4">Or connect with me on:</p>
+      <div class="flex justify-center space-x-6 text-2xl text-indigo-600">
+        <!-- Instagram -->
+        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram hover:text-pink-500 transition"></i>
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/yourwhatsapplink" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp hover:text-green-500 transition"></i>
+        </a>
+        <!-- Facebook -->
+        <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook hover:text-blue-600 transition"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+           
+</body>
+</html>
